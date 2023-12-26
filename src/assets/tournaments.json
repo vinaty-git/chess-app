@@ -1,0 +1,1688 @@
+[
+    {
+        "id": "531ebf13-5e0d-46e0-b0f7-ea9c64a1db6f",
+        "processed": true,
+        "datetime": "2023-09-23T11:00:00.000Z",
+        "control": "10+0",
+        "games": [
+            {
+                "player1": "Виталий",
+                "player2": "Слава",
+                "result": 0
+            },
+            {
+                "player1": "Виталий",
+                "player2": "Владимир",
+                "result": 0
+            },
+            {
+                "player1": "Виталий",
+                "player2": "Светлана",
+                "result": 1
+            },
+            {
+                "player1": "Виталий",
+                "player2": "Полина",
+                "result": 0
+            },
+            {
+                "player1": "Виталий",
+                "player2": "Коля",
+                "result": 0
+            },
+            {
+                "player1": "Светлана",
+                "player2": "Полина",
+                "result": 0
+            },
+            {
+                "player1": "Светлана",
+                "player2": "Коля",
+                "result": 0
+            },
+            {
+                "player1": "Светлана",
+                "player2": "Кирилл Н",
+                "result": 0
+            },
+            {
+                "player1": "Светлана",
+                "player2": "Владимир",
+                "result": 0
+            },
+            {
+                "player1": "Коля",
+                "player2": "Валерий",
+                "result": 0
+            },
+            {
+                "player1": "Коля",
+                "player2": "Кирилл Н",
+                "result": 0
+            },
+            {
+                "player1": "Коля",
+                "player2": "Слава",
+                "result": 1
+            },
+            {
+                "player1": "Владимир",
+                "player2": "Кирилл Н",
+                "result": 0
+            },
+            {
+                "player1": "Владимир",
+                "player2": "Полина",
+                "result": 1
+            },
+            {
+                "player1": "Владимир",
+                "player2": "Валерий",
+                "result": 0
+            },
+            {
+                "player1": "Слава",
+                "player2": "Кирилл Н",
+                "result": 1
+            },
+            {
+                "player1": "Слава",
+                "player2": "Валерий",
+                "result": 0
+            },
+            {
+                "player1": "Слава",
+                "player2": "Полина",
+                "result": 1
+            },
+            {
+                "player1": "Полина",
+                "player2": "Валерий",
+                "result": 0
+            },
+            {
+                "player1": "Валерий",
+                "player2": "Кирилл Н",
+                "result": 1
+            }
+        ]
+    },
+    {
+        "id": "393e7efe-6812-4573-87cb-ddccb136c134",
+        "processed": true,
+        "control": "10+0",
+        "datetime": "2023-10-08T11:00:00.000Z",
+        "games": [
+            {
+                "player1": "Коля",
+                "player2": "Валерий",
+                "result": 1
+            },
+            {
+                "player1": "Андрей",
+                "player2": "Полина",
+                "result": 0
+            },
+            {
+                "player1": "Слава",
+                "player2": "Миша",
+                "result": 1
+            },
+            {
+                "player1": "Женя",
+                "player2": "Локис",
+                "result": 0
+            },
+            {
+                "player1": "Айта",
+                "player2": "Кирилл Н",
+                "result": 0
+            },
+            {
+                "player1": "Ваня",
+                "player2": "Костя",
+                "result": 1
+            },
+            {
+                "player1": "Кирилл Н",
+                "player2": "Слава",
+                "result": 1
+            },
+            {
+                "player1": "Полина",
+                "player2": "Ваня",
+                "result": 1
+            },
+            {
+                "player1": "Локис",
+                "player2": "Коля",
+                "result": 1
+            },
+            {
+                "player1": "Валерий",
+                "player2": "Кирилл Л",
+                "result": 1
+            },
+            {
+                "player1": "Костя",
+                "player2": "Андрей",
+                "result": 0
+            },
+            {
+                "player1": "Миша",
+                "player2": "Женя",
+                "result": 1
+            },
+            {
+                "player1": "Полина",
+                "player2": "Кирилл Н",
+                "result": 0
+            },
+            {
+                "player1": "Андрей",
+                "player2": "Локис",
+                "result": 0
+            },
+            {
+                "player1": "Ваня",
+                "player2": "Валерий",
+                "result": 0
+            },
+            {
+                "player1": "Коля",
+                "player2": "Миша",
+                "result": 1
+            },
+            {
+                "player1": "Слава",
+                "player2": "Айта",
+                "result": 1
+            },
+            {
+                "player1": "Кирилл Л",
+                "player2": "Костя",
+                "result": 1
+            },
+            {
+                "player1": "Кирилл Н",
+                "player2": "Локис",
+                "result": 0.5
+            },
+            {
+                "player1": "Валерий",
+                "player2": "Полина",
+                "result": 0
+            },
+            {
+                "player1": "Слава",
+                "player2": "Коля",
+                "result": 0.5
+            },
+            {
+                "player1": "Кирилл Л",
+                "player2": "Ваня",
+                "result": 0
+            },
+            {
+                "player1": "Миша",
+                "player2": "Андрей",
+                "result": 1
+            },
+            {
+                "player1": "Женя",
+                "player2": "Айта",
+                "result": 0
+            },
+            {
+                "player1": "Локис",
+                "player2": "Полина",
+                "result": 1
+            },
+            {
+                "player1": "Коля",
+                "player2": "Кирилл Н",
+                "result": 0
+            },
+            {
+                "player1": "Валерий",
+                "player2": "Слава",
+                "result": 0
+            },
+            {
+                "player1": "Ваня",
+                "player2": "Миша",
+                "result": 1
+            },
+            {
+                "player1": "Айта",
+                "player2": "Кирилл Л",
+                "result": 0
+            },
+            {
+                "player1": "Андрей",
+                "player2": "Женя",
+                "result": 0
+            },
+            {
+                "player1": "Локис",
+                "player2": "Слава",
+                "result": 0
+            },
+            {
+                "player1": "Кирилл Н",
+                "player2": "Ваня",
+                "result": 0
+            },
+            {
+                "player1": "Полина",
+                "player2": "Коля",
+                "result": 0
+            },
+            {
+                "player1": "Миша",
+                "player2": "Кирилл Л",
+                "result": 1
+            },
+            {
+                "player1": "Женя",
+                "player2": "Валерий",
+                "result": 0
+            },
+            {
+                "player1": "Костя",
+                "player2": "Айта",
+                "result": 0
+            }
+        ]
+    },
+    {
+        "id": "617cc87d-6b79-47b0-ab33-12a6150dfb35",
+        "processed": true,
+        "control": "10+0",
+        "datetime": "2023-10-15T11:00:00.000Z",
+        "games": [
+            {
+                "player1": "Айта",
+                "player2": "Полина",
+                "result": 0
+            },
+            {
+                "player1": "Андрей",
+                "player2": "Костя",
+                "result": 1
+            },
+            {
+                "player1": "Эдуард",
+                "player2": "Кирилл Н",
+                "result": 0
+            },
+            {
+                "player1": "Локис",
+                "player2": "Кирилл Ч",
+                "result": 1
+            },
+            {
+                "player1": "Ваня",
+                "player2": "Слава",
+                "result": 0
+            },
+            {
+                "player1": "Полина",
+                "player2": "Локис",
+                "result": 1
+            },
+            {
+                "player1": "Кирилл Н",
+                "player2": "Андрей",
+                "result": 1
+            },
+            {
+                "player1": "Слава",
+                "player2": "Айта",
+                "result": 1
+            },
+            {
+                "player1": "Костя",
+                "player2": "Ваня",
+                "result": 0
+            },
+            {
+                "player1": "Кирилл Ч",
+                "player2": "Эдуард",
+                "result": 0
+            },
+            {
+                "player1": "Слава",
+                "player2": "Полина",
+                "result": 0
+            },
+            {
+                "player1": "Ваня",
+                "player2": "Кирилл Н",
+                "result": 1
+            },
+            {
+                "player1": "Эдуард",
+                "player2": "Андрей",
+                "result": 1
+            },
+            {
+                "player1": "Локис",
+                "player2": "Костя",
+                "result": 1
+            },
+            {
+                "player1": "Айта",
+                "player2": "Кирилл Ч",
+                "result": 0
+            },
+            {
+                "player1": "Эдуард",
+                "player2": "Слава",
+                "result": 0
+            },
+            {
+                "player1": "Полина",
+                "player2": "Ваня",
+                "result": 0.5
+            },
+            {
+                "player1": "Кирилл Н",
+                "player2": "Локис",
+                "result": 0
+            },
+            {
+                "player1": "Андрей",
+                "player2": "Кирилл Ч",
+                "result": 1
+            },
+            {
+                "player1": "Костя",
+                "player2": "Айта",
+                "result": 0
+            },
+            {
+                "player1": "Локис",
+                "player2": "Слава",
+                "result": 1
+            },
+            {
+                "player1": "Ваня",
+                "player2": "Андрей",
+                "result": 0
+            },
+            {
+                "player1": "Кирилл Н",
+                "player2": "Полина",
+                "result": 1
+            },
+            {
+                "player1": "Айта",
+                "player2": "Эдуард",
+                "result": 0
+            },
+            {
+                "player1": "Кирилл Ч",
+                "player2": "Костя",
+                "result": 1
+            },
+            {
+                "player1": "Андрей",
+                "player2": "Локис",
+                "result": 0
+            },
+            {
+                "player1": "Слава",
+                "player2": "Кирилл Н",
+                "result": 0
+            },
+            {
+                "player1": "Костя",
+                "player2": "Эдуард",
+                "result": 0
+            },
+            {
+                "player1": "Полина",
+                "player2": "Кирилл Ч",
+                "result": 1
+            },
+            {
+                "player1": "Айта",
+                "player2": "Ваня",
+                "result": 0
+            }
+        ]
+    },
+    {
+        "id": "88b74ceb-6880-411b-b03b-8ce39e6298ab",
+        "processed": true,
+        "control": "10+0",
+        "datetime": "2023-10-22T11:00:00.000Z",
+        "games": [
+            {
+                "player1": "Локис",
+                "player2": "Кирилл Л",
+                "result": 1
+            },
+            {
+                "player1": "Юля",
+                "player2": "Эдуард",
+                "result": 0
+            },
+            {
+                "player1": "Кирилл Н",
+                "player2": "Андрей",
+                "result": 1
+            },
+            {
+                "player1": "Полина",
+                "player2": "Слава",
+                "result": 0
+            },
+            {
+                "player1": "Коля",
+                "player2": "Валерий",
+                "result": 0
+            },
+            {
+                "player1": "Слава",
+                "player2": "Локис",
+                "result": 0
+            },
+            {
+                "player1": "Эдуард",
+                "player2": "Кирилл Н",
+                "result": 0
+            },
+            {
+                "player1": "Валерий",
+                "player2": "Ваня",
+                "result": 0
+            },
+            {
+                "player1": "Андрей",
+                "player2": "Коля",
+                "result": 0
+            },
+            {
+                "player1": "Кирилл Л",
+                "player2": "Юля",
+                "result": 1
+            },
+            {
+                "player1": "Локис",
+                "player2": "Кирилл Н",
+                "result": 1
+            },
+            {
+                "player1": "Ваня",
+                "player2": "Эдуард",
+                "result": 1
+            },
+            {
+                "player1": "Валерий",
+                "player2": "Слава",
+                "result": 0
+            },
+            {
+                "player1": "Коля",
+                "player2": "Кирилл Л",
+                "result": 1
+            },
+            {
+                "player1": "Юля",
+                "player2": "Полина",
+                "result": 0
+            },
+            {
+                "player1": "Ваня",
+                "player2": "Локис",
+                "result": 1
+            },
+            {
+                "player1": "Слава",
+                "player2": "Коля",
+                "result": 1
+            },
+            {
+                "player1": "Кирилл Н",
+                "player2": "Полина",
+                "result": 1
+            },
+            {
+                "player1": "Эдуард",
+                "player2": "Валерий",
+                "result": 1
+            },
+            {
+                "player1": "Кирилл Л",
+                "player2": "Андрей",
+                "result": 1
+            },
+            {
+                "player1": "Кирилл Н",
+                "player2": "Ваня",
+                "result": 1
+            },
+            {
+                "player1": "Локис",
+                "player2": "Эдуард",
+                "result": 1
+            },
+            {
+                "player1": "Кирилл Л",
+                "player2": "Слава",
+                "result": 0
+            },
+            {
+                "player1": "Полина",
+                "player2": "Коля",
+                "result": 0
+            },
+            {
+                "player1": "Валерий",
+                "player2": "Юля",
+                "result": 1
+            },
+            {
+                "player1": "Слава",
+                "player2": "Кирилл Н",
+                "result": 0
+            },
+            {
+                "player1": "Коля",
+                "player2": "Локис",
+                "result": 0
+            },
+            {
+                "player1": "Ваня",
+                "player2": "Кирилл Л",
+                "result": 0
+            },
+            {
+                "player1": "Эдуард",
+                "player2": "Полина",
+                "result": 1
+            },
+            {
+                "player1": "Андрей",
+                "player2": "Валерий",
+                "result": 0
+            }
+        ]
+    },
+    {
+        "id": "e086b1f0-db40-4552-89da-07def7443c89",
+        "processed": true,
+        "control": "10+0",
+        "datetime": "2023-10-29T11:00:00.000Z",
+        "games": [
+            {
+                "player1": "Светлана",
+                "player2": "Эдуард",
+                "result": 0
+            },
+            {
+                "player1": "Андрей",
+                "player2": "Виталий",
+                "result": 1
+            },
+            {
+                "player1": "Слава",
+                "player2": "Женя",
+                "result": 1
+            },
+            {
+                "player1": "Миша",
+                "player2": "Айта",
+                "result": 1
+            },
+            {
+                "player1": "Юля",
+                "player2": "Локис",
+                "result": 0
+            },
+            {
+                "player1": "Кирилл Н",
+                "player2": "Кирилл Л",
+                "result": 1
+            },
+            {
+                "player1": "Коля",
+                "player2": "Валерий",
+                "result": 1
+            },
+            {
+                "player1": "Эдуард",
+                "player2": "Кирилл Н",
+                "result": 0
+            },
+            {
+                "player1": "Локис",
+                "player2": "Андрей",
+                "result": 1
+            },
+            {
+                "player1": "Слава",
+                "player2": "Миша",
+                "result": 0
+            },
+            {
+                "player1": "Ваня",
+                "player2": "Коля",
+                "result": 0
+            },
+            {
+                "player1": "Женя",
+                "player2": "Виталий",
+                "result": 1
+            },
+            {
+                "player1": "Валерий",
+                "player2": "Юля",
+                "result": 1
+            },
+            {
+                "player1": "Айта",
+                "player2": "Светлана",
+                "result": 1
+            },
+            {
+                "player1": "Миша",
+                "player2": "Кирилл Н",
+                "result": 1
+            },
+            {
+                "player1": "Коля",
+                "player2": "Локис",
+                "result": 0
+            },
+            {
+                "player1": "Валерий",
+                "player2": "Эдуард",
+                "result": 1
+            },
+            {
+                "player1": "Андрей",
+                "player2": "Слава",
+                "result": 0
+            },
+            {
+                "player1": "Айта",
+                "player2": "Женя",
+                "result": 0
+            },
+            {
+                "player1": "Кирилл Л",
+                "player2": "Ваня",
+                "result": 1
+            },
+            {
+                "player1": "Виталий",
+                "player2": "Светлана",
+                "result": 1
+            },
+            {
+                "player1": "Локис",
+                "player2": "Миша",
+                "result": 1
+            },
+            {
+                "player1": "Женя",
+                "player2": "Валерий",
+                "result": 0
+            },
+            {
+                "player1": "Кирилл Н",
+                "player2": "Коля",
+                "result": 0
+            },
+            {
+                "player1": "Кирилл Л",
+                "player2": "Слава",
+                "result": 0.5
+            },
+            {
+                "player1": "Эдуард",
+                "player2": "Андрей",
+                "result": 1
+            },
+            {
+                "player1": "Виталий",
+                "player2": "Айта",
+                "result": 1
+            },
+            {
+                "player1": "Юля",
+                "player2": "Ваня",
+                "result": 0
+            },
+            {
+                "player1": "Валерий",
+                "player2": "Локис",
+                "result": 0
+            },
+            {
+                "player1": "Миша",
+                "player2": "Коля",
+                "result": 1
+            },
+            {
+                "player1": "Слава",
+                "player2": "Эдуард",
+                "result": 0
+            },
+            {
+                "player1": "Женя",
+                "player2": "Кирилл Л",
+                "result": 0
+            },
+            {
+                "player1": "Кирилл Н",
+                "player2": "Виталий",
+                "result": 1
+            },
+            {
+                "player1": "Ваня",
+                "player2": "Андрей",
+                "result": 1
+            },
+            {
+                "player1": "Айта",
+                "player2": "Юля",
+                "result": 1
+            },
+            {
+                "player1": "Локис",
+                "player2": "Кирилл Н",
+                "result": 1
+            },
+            {
+                "player1": "Эдуард",
+                "player2": "Миша",
+                "result": 0
+            },
+            {
+                "player1": "Кирилл Л",
+                "player2": "Валерий",
+                "result": 1
+            },
+            {
+                "player1": "Коля",
+                "player2": "Слава",
+                "result": 0
+            },
+            {
+                "player1": "Виталий",
+                "player2": "Ваня",
+                "result": 0
+            },
+            {
+                "player1": "Светлана",
+                "player2": "Женя",
+                "result": 1
+            },
+            {
+                "player1": "Андрей",
+                "player2": "Айта",
+                "result": 1
+            }
+        ]
+    },
+    {
+        "id": "21640b18-6eb3-41e9-8977-52be11744e7b",
+        "processed": true,
+        "control": "10+0",
+        "datetime": "2023-11-05T11:00:00.000Z",
+        "games": [
+            {
+                "player1": "Эдуард",
+                "player2": "Костя",
+                "result": 1
+            },
+            {
+                "player1": "Кирилл Н",
+                "player2": "Полина",
+                "result": 1
+            },
+            {
+                "player1": "Ваня",
+                "player2": "Локис",
+                "result": 0
+            },
+            {
+                "player1": "Коля",
+                "player2": "Айта",
+                "result": 1
+            },
+            {
+                "player1": "Локис",
+                "player2": "Эдуард",
+                "result": 1
+            },
+            {
+                "player1": "Коля",
+                "player2": "Кирилл Н",
+                "result": 1
+            },
+            {
+                "player1": "Полина",
+                "player2": "Айта",
+                "result": 1
+            },
+            {
+                "player1": "Костя",
+                "player2": "Ваня",
+                "result": 0
+            },
+            {
+                "player1": "Локис",
+                "player2": "Коля",
+                "result": 1
+            },
+            {
+                "player1": "Эдуард",
+                "player2": "Кирилл Н",
+                "result": 1
+            },
+            {
+                "player1": "Ваня",
+                "player2": "Полина",
+                "result": 0
+            },
+            {
+                "player1": "Айта",
+                "player2": "Костя",
+                "result": 1
+            },
+            {
+                "player1": "Полина",
+                "player2": "Локис",
+                "result": 0
+            },
+            {
+                "player1": "Коля",
+                "player2": "Эдуард",
+                "result": 1
+            },
+            {
+                "player1": "Айта",
+                "player2": "Ваня",
+                "result": 0
+            },
+            {
+                "player1": "Кирилл Н",
+                "player2": "Костя",
+                "result": 1
+            },
+            {
+                "player1": "Локис",
+                "player2": "Кирилл Н",
+                "result": 0.5
+            },
+            {
+                "player1": "Ваня",
+                "player2": "Коля",
+                "result": 1
+            },
+            {
+                "player1": "Эдуард",
+                "player2": "Айта",
+                "result": 1
+            },
+            {
+                "player1": "Костя",
+                "player2": "Полина",
+                "result": 0
+            },
+            {
+                "player1": "Костя",
+                "player2": "Локис",
+                "result": 0
+            },
+            {
+                "player1": "Ваня",
+                "player2": "Эдуард",
+                "result": 1
+            },
+            {
+                "player1": "Полина",
+                "player2": "Коля",
+                "result": 1
+            },
+            {
+                "player1": "Кирилл Н",
+                "player2": "Айта",
+                "result": 1
+            }
+        ]
+    },
+    {
+        "id": "899853a4-934a-4e56-9350-98ed281aee3e",
+        "processed": true,
+        "control": "10+0",
+        "datetime": "2023-11-11T11:11:00.000Z",
+        "games": [
+            {
+                "player1": "Кирилл Н",
+                "player2": "Костя",
+                "result": 1
+            },
+            {
+                "player1": "Локис",
+                "player2": "Айта",
+                "result": 1
+            },
+            {
+                "player1": "Егор",
+                "player2": "Полина",
+                "result": 0
+            },
+            {
+                "player1": "Костя",
+                "player2": "Локис",
+                "result": 0
+            },
+            {
+                "player1": "Егор",
+                "player2": "Кирилл Н",
+                "result": 0
+            },
+            {
+                "player1": "Полина",
+                "player2": "Айта",
+                "result": 0
+            },
+            {
+                "player1": "Локис",
+                "player2": "Егор",
+                "result": 1
+            },
+            {
+                "player1": "Айта",
+                "player2": "Костя",
+                "result": 0.5
+            },
+            {
+                "player1": "Кирилл Н",
+                "player2": "Полина",
+                "result": 1
+            },
+            {
+                "player1": "Егор",
+                "player2": "Айта",
+                "result": 0
+            },
+            {
+                "player1": "Кирилл Н",
+                "player2": "Локис",
+                "result": 0
+            },
+            {
+                "player1": "Полина",
+                "player2": "Костя",
+                "result": 1
+            },
+            {
+                "player1": "Айта",
+                "player2": "Кирилл Н",
+                "result": 0
+            },
+            {
+                "player1": "Костя",
+                "player2": "Егор",
+                "result": 0
+            },
+            {
+                "player1": "Локис",
+                "player2": "Полина",
+                "result": 1
+            }
+        ]
+    },
+    {
+        "id": "d3153cf1-2f7b-425b-a4b6-403a9edbbf0c",
+        "processed": true,
+        "control": "15+5",
+        "datetime": "2023-11-19T11:00:00.000Z",
+        "games": [
+            {
+                "player1": "Полина",
+                "player2": "Егор",
+                "result": 1
+            },
+            {
+                "player1": "Кирилл Н",
+                "player2": "Локис",
+                "result": 0
+            },
+            {
+                "player1": "Егор",
+                "player2": "Кирилл Н",
+                "result": 0
+            },
+            {
+                "player1": "Эдуард",
+                "player2": "Полина",
+                "result": 0
+            },
+            {
+                "player1": "Кирилл Н",
+                "player2": "Эдуард",
+                "result": 0
+            },
+            {
+                "player1": "Локис",
+                "player2": "Егор",
+                "result": 1
+            },
+            {
+                "player1": "Эдуард",
+                "player2": "Локис",
+                "result": 0.5
+            },
+            {
+                "player1": "Полина",
+                "player2": "Кирилл Н",
+                "result": 0
+            },
+            {
+                "player1": "Локис",
+                "player2": "Полина",
+                "result": 1
+            },
+            {
+                "player1": "Егор",
+                "player2": "Эдуард",
+                "result": 0
+            }
+        ]
+    },
+    {
+        "id": "e78d0873-033c-4784-95e7-97219f6d3807",
+        "processed": true,
+        "control": "10+0",
+        "datetime": "2023-12-03T11:00:00.000Z",
+        "games": [
+            {
+                "player1": "Ваня",
+                "player2": "Слава",
+                "result": 0
+            },
+            {
+                "player1": "Виталий",
+                "player2": "Айта",
+                "result": 0
+            },
+            {
+                "player1": "Костя",
+                "player2": "Леонид",
+                "result": 0
+            },
+            {
+                "player1": "Алекс",
+                "player2": "Полина",
+                "result": 0
+            },
+            {
+                "player1": "Эдуард",
+                "player2": "Кирилл Н",
+                "result": 0
+            },
+            {
+                "player1": "Айта",
+                "player2": "Слава",
+                "result": 0
+            },
+            {
+                "player1": "Полина",
+                "player2": "Леонид",
+                "result": 1
+            },
+            {
+                "player1": "Кирилл Н",
+                "player2": "Локис",
+                "result": 1
+            },
+            {
+                "player1": "Эдуард",
+                "player2": "Ваня",
+                "result": 0
+            },
+            {
+                "player1": "Виталий",
+                "player2": "Костя",
+                "result": 1
+            },
+            {
+                "player1": "Слава",
+                "player2": "Кирилл Н",
+                "result": 1
+            },
+            {
+                "player1": "Ваня",
+                "player2": "Полина",
+                "result": 1
+            },
+            {
+                "player1": "Леонид",
+                "player2": "Айта",
+                "result": 0
+            },
+            {
+                "player1": "Локис",
+                "player2": "Виталий",
+                "result": 1
+            },
+            {
+                "player1": "Костя",
+                "player2": "Алекс",
+                "result": 0
+            },
+            {
+                "player1": "Полина",
+                "player2": "Слава",
+                "result": 1
+            },
+            {
+                "player1": "Кирилл Н",
+                "player2": "Ваня",
+                "result": 0
+            },
+            {
+                "player1": "Айта",
+                "player2": "Локис",
+                "result": 0
+            },
+            {
+                "player1": "Алекс",
+                "player2": "Виталий",
+                "result": 1
+            },
+            {
+                "player1": "Леонид",
+                "player2": "Эдуард",
+                "result": 0
+            },
+            {
+                "player1": "Локис",
+                "player2": "Полина",
+                "result": 1
+            },
+            {
+                "player1": "Слава",
+                "player2": "Алекс",
+                "result": 1
+            },
+            {
+                "player1": "Ваня",
+                "player2": "Айта",
+                "result": 1
+            },
+            {
+                "player1": "Кирилл Н",
+                "player2": "Леонид",
+                "result": 0
+            },
+            {
+                "player1": "Виталий",
+                "player2": "Эдуард",
+                "result": 1
+            },
+            {
+                "player1": "Слава",
+                "player2": "Локис",
+                "result": 0
+            },
+            {
+                "player1": "Алекс",
+                "player2": "Ваня",
+                "result": 1
+            },
+            {
+                "player1": "Полина",
+                "player2": "Кирилл Н",
+                "result": 1
+            },
+            {
+                "player1": "Леонид",
+                "player2": "Виталий",
+                "result": 0
+            },
+            {
+                "player1": "Эдуард",
+                "player2": "Айта",
+                "result": 0
+            }
+        ]
+    },
+    {
+        "id": "e94e24bf-018c-4785-9e1e-4040627eec2a",
+        "processed": true,
+        "control": "10+0",
+        "datetime": "2023-12-10T11:00:00.000Z",
+        "games": [
+            {
+                "player1": "Локис",
+                "player2": "Кирилл Н",
+                "result": 1
+            },
+            {
+                "player1": "Слава",
+                "player2": "Глеб",
+                "result": 0.5
+            },
+            {
+                "player1": "Эдуард",
+                "player2": "Володя",
+                "result": 1
+            },
+            {
+                "player1": "Глеб",
+                "player2": "Эдуард",
+                "result": 1
+            },
+            {
+                "player1": "Кирилл Н",
+                "player2": "Слава",
+                "result": 0
+            },
+            {
+                "player1": "Полина",
+                "player2": "Локис",
+                "result": 0
+            },
+            {
+                "player1": "Слава",
+                "player2": "Полина",
+                "result": 1
+            },
+            {
+                "player1": "Эдуард",
+                "player2": "Кирилл Н",
+                "result": 1
+            },
+            {
+                "player1": "Володя",
+                "player2": "Глеб",
+                "result": 1
+            },
+            {
+                "player1": "Кирилл Н",
+                "player2": "Володя",
+                "result": 1
+            },
+            {
+                "player1": "Полина",
+                "player2": "Эдуард",
+                "result": 1
+            },
+            {
+                "player1": "Локис",
+                "player2": "Слава",
+                "result": 1
+            },
+            {
+                "player1": "Эдуард",
+                "player2": "Локис",
+                "result": 0
+            },
+            {
+                "player1": "Володя",
+                "player2": "Полина",
+                "result": 0
+            },
+            {
+                "player1": "Глеб",
+                "player2": "Кирилл Н",
+                "result": 0
+            },
+            {
+                "player1": "Полина",
+                "player2": "Глеб",
+                "result": 0
+            },
+            {
+                "player1": "Локис",
+                "player2": "Володя",
+                "result": 1
+            },
+            {
+                "player1": "Слава",
+                "player2": "Эдуард",
+                "result": 1
+            },
+            {
+                "player1": "Володя",
+                "player2": "Слава",
+                "result": 0
+            },
+            {
+                "player1": "Глеб",
+                "player2": "Локис",
+                "result": 0
+            },
+            {
+                "player1": "Кирилл Н",
+                "player2": "Полина",
+                "result": 0.5
+            }
+        ]
+    },
+    {
+        "id": "66abde5d-f7e6-4b25-8f78-d9b5cca609ab",
+        "processed": true,
+        "control": "10+0",
+        "datetime": "2023-12-17T11:00:00.000Z",
+        "games": [
+            {
+                "player1": "Кирилл Н",
+                "player2": "Эдуард",
+                "result": 1
+            },
+            {
+                "player1": "Локис",
+                "player2": "Полина",
+                "result": 1
+            },
+            {
+                "player1": "Слава",
+                "player2": "Глеб",
+                "result": 0
+            },
+            {
+                "player1": "Кирилл Л",
+                "player2": "Семён",
+                "result": 0
+            },
+            {
+                "player1": "Ваня",
+                "player2": "Алекс",
+                "result": 1
+            },
+            {
+                "player1": "Семён",
+                "player2": "Локис",
+                "result": 1
+            },
+            {
+                "player1": "Глеб",
+                "player2": "Кирилл Н",
+                "result": 1
+            },
+            {
+                "player1": "Эдуард",
+                "player2": "Ваня",
+                "result": 0
+            },
+            {
+                "player1": "Полина",
+                "player2": "Кирилл Л",
+                "result": 1
+            },
+            {
+                "player1": "Алекс",
+                "player2": "Слава",
+                "result": 0
+            },
+            {
+                "player1": "Ваня",
+                "player2": "Глеб",
+                "result": 1
+            },
+            {
+                "player1": "Кирилл Н",
+                "player2": "Семён",
+                "result": 0
+            },
+            {
+                "player1": "Слава",
+                "player2": "Полина",
+                "result": 1
+            },
+            {
+                "player1": "Локис",
+                "player2": "Алекс",
+                "result": 1
+            },
+            {
+                "player1": "Александр",
+                "player2": "Эдуард",
+                "result": 0
+            },
+            {
+                "player1": "Семён",
+                "player2": "Ваня",
+                "result": 1
+            },
+            {
+                "player1": "Глеб",
+                "player2": "Локис",
+                "result": 0
+            },
+            {
+                "player1": "Эдуард",
+                "player2": "Слава",
+                "result": 0
+            },
+            {
+                "player1": "Полина",
+                "player2": "Кирилл Н",
+                "result": 1
+            },
+            {
+                "player1": "Кирилл Л",
+                "player2": "Александр",
+                "result": 1
+            },
+            {
+                "player1": "Слава",
+                "player2": "Семён",
+                "result": 0
+            },
+            {
+                "player1": "Локис",
+                "player2": "Ваня",
+                "result": 0.5
+            },
+            {
+                "player1": "Полина",
+                "player2": "Глеб",
+                "result": 1
+            },
+            {
+                "player1": "Кирилл Н",
+                "player2": "Кирилл Л",
+                "result": 0
+            },
+            {
+                "player1": "Алекс",
+                "player2": "Эдуард",
+                "result": 1
+            },
+            {
+                "player1": "Семён",
+                "player2": "Полина",
+                "result": 0
+            },
+            {
+                "player1": "Ваня",
+                "player2": "Слава",
+                "result": 1
+            },
+            {
+                "player1": "Кирилл Л",
+                "player2": "Локис",
+                "result": 0
+            },
+            {
+                "player1": "Глеб",
+                "player2": "Алекс",
+                "result": 1
+            },
+            {
+                "player1": "Александр",
+                "player2": "Кирилл Н",
+                "result": 0
+            }
+        ]
+    },
+    {
+        "id": "e15ad243-3d75-4ed7-88c5-dda937ed8fde",
+        "processed": true,
+        "control": "10+5",
+        "datetime": "2023-12-24T11:00:00.000Z",
+        "games": [
+            {
+                "player1": "Локис",
+                "player2": "Алекс",
+                "result": 1
+            },
+            {
+                "player1": "Ваня",
+                "player2": "Кирилл Н",
+                "result": 1
+            },
+            {
+                "player1": "Слава",
+                "player2": "Леонид",
+                "result": 1
+            },
+            {
+                "player1": "Александр",
+                "player2": "Глеб",
+                "result": 0
+            },
+            {
+                "player1": "Кирилл Л",
+                "player2": "Полина",
+                "result": 1
+            },
+            {
+                "player1": "Глеб",
+                "player2": "Локис",
+                "result": 0
+            },
+            {
+                "player1": "Кирилл Л",
+                "player2": "Слава",
+                "result": 1
+            },
+            {
+                "player1": "Алекс",
+                "player2": "Ваня",
+                "result": 0
+            },
+            {
+                "player1": "Кирилл Н",
+                "player2": "Александр",
+                "result": 1
+            },
+            {
+                "player1": "Леонид",
+                "player2": "Полина",
+                "result": 1
+            },
+            {
+                "player1": "Ваня",
+                "player2": "Кирилл Л",
+                "result": 0
+            },
+            {
+                "player1": "Локис",
+                "player2": "Кирилл Н",
+                "result": 1
+            },
+            {
+                "player1": "Слава",
+                "player2": "Глеб",
+                "result": 0
+            },
+            {
+                "player1": "Александр",
+                "player2": "Леонид",
+                "result": 0
+            },
+            {
+                "player1": "Полина",
+                "player2": "Алекс",
+                "result": 1
+            },
+            {
+                "player1": "Кирилл Л",
+                "player2": "Локис",
+                "result": 1
+            },
+            {
+                "player1": "Леонид",
+                "player2": "Ваня",
+                "result": 0
+            },
+            {
+                "player1": "Глеб",
+                "player2": "Полина",
+                "result": 1
+            },
+            {
+                "player1": "Кирилл Н",
+                "player2": "Слава",
+                "result": 1
+            },
+            {
+                "player1": "Алекс",
+                "player2": "Александр",
+                "result": 0
+            },
+            {
+                "player1": "Глеб",
+                "player2": "Кирилл Л",
+                "result": 1
+            },
+            {
+                "player1": "Локис",
+                "player2": "Ваня",
+                "result": 1
+            },
+            {
+                "player1": "Леонид",
+                "player2": "Кирилл Н",
+                "result": 0
+            },
+            {
+                "player1": "Полина",
+                "player2": "Александр",
+                "result": 1
+            },
+            {
+                "player1": "Слава",
+                "player2": "Алекс",
+                "result": 1
+            },
+            {
+                "player1": "Ваня",
+                "player2": "Глеб",
+                "result": 1
+            },
+            {
+                "player1": "Кирилл Н",
+                "player2": "Кирилл Л",
+                "result": 1
+            },
+            {
+                "player1": "Полина",
+                "player2": "Локис",
+                "result": 0.5
+            },
+            {
+                "player1": "Александр",
+                "player2": "Слава",
+                "result": 0
+            },
+            {
+                "player1": "Алекс",
+                "player2": "Леонид",
+                "result": 1
+            }
+        ]
+    }
+]
