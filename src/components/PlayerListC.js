@@ -18,21 +18,29 @@ export default function PlayerList() {
     });
     function calcGames(output,playerName) {
       var counterGames = 0;
-      // // console.log('test');
+      var counterTournaments = 0;
+
       for (let i = 0; i < tournamentsArray.length; i++) {
         var tournament = tournamentsArray[i].games;
-        // console.log(tournament);
+
+        var newIteration = true;
         for (let i_t = 0; i_t < tournament?.length; i_t++) {
           var player1 = tournament[i_t].player1;
           var player2 = tournament[i_t].player2;
           if ((player1 || player2) == playerName) {
             counterGames += 1;
+            if (newIteration) {
+              counterTournaments += 1;
+              newIteration = false;
+            }
           }
         }
       }
-      // if (output === 'games') {
+      if (output === 'games') {
         return(counterGames);
-      // }
+      } else if (output === 'tournaments') {
+        return(counterTournaments);
+      }
     }
 
     return (
@@ -40,6 +48,10 @@ export default function PlayerList() {
       <div className="players">
 
         <div className="players__headings">
+
+          <span className="players__position-h">
+            #
+          </span>
 
           <span className="players__name-h">
             Name
@@ -70,11 +82,13 @@ export default function PlayerList() {
             var currentRating = Math.floor(item.ratings[item.ratings.length - 1].value);
             var prevRating = Math.floor(item.ratings[item.ratings.length - 2].value);
             var numGames = calcGames('games',item.name);
-            var numTournaments = item.ratings.length - 1;
+            var numTournaments = calcGames('tournaments',item.name);
+
             return(
 
               <PlayerItem
                 key={index}
+                position={index+1}
                 playerName={item.name}
                 currentRating={currentRating}
                 prevRating={prevRating}
