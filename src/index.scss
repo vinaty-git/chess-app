@@ -19,10 +19,15 @@ code {
 }
 
 //\\// PREDEFINED COLORS //\\//
+
   $icon-green:green;
   $icon-red: red;
   $icon-neutral: grey;
   $heading-color: rgb(65, 65, 65);
+  $sandy-bg: rgb(238, 228, 159);
+  $silver-bg: rgb(216, 224, 224);
+  $bronze-bg: rgb(240, 211, 170);
+  $grey-bg: rgb(243, 240, 236);
 //\\// COMMON ELEMENTS //\\//
 
 .icon--green {
@@ -36,10 +41,41 @@ code {
 }
 
 //\\// PLAYER LIST //\\//
+.players__position {
+  height: 100%;
+}
 .players__position,
 .players__position-h {
-  width: 5%;
-  text-align: left;
+  width: 7%;
+  text-align: center;
+}
+.position__current {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 60%;
+  border-radius: 0 10px 10px 0;
+  font-size: 0.9rem;
+}
+.position__current {
+  background-color: $grey-bg;
+}
+.players__item:first-child .position__current {
+  background-color: $sandy-bg;
+  font-weight: bold;
+}
+.players__item:nth-child(2) .position__current {
+  background-color: $silver-bg;
+  font-weight: bold;
+}
+.players__item:nth-child(3) .position__current {
+  background-color: $bronze-bg;
+  font-weight: bold;
+}
+
+.position__previous {
+  font-size: 0.8rem;
 }
 
 .players__name-h,
@@ -78,14 +114,15 @@ code {
   justify-content: space-around;
   align-items: center;
   gap: 5%;
-  padding: 0 4%;
+  padding-right: 4%;
   font-size: 0.8rem;
   font-weight: bold;
   color: $heading-color;
 }
 
 .players {
-  width: 50%;
+  box-sizing: border-box;
+  width: 60%;
   margin: 0 auto;
 }
 
@@ -95,12 +132,13 @@ code {
 }
 
 .players__item {
+  position: relative;
   height: 60px;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   gap: 5%;
-  padding: 14px 4%;
+  padding: 14px 4% 14px 0;
 
   background-color: #fff;
   margin-bottom: 4px;
