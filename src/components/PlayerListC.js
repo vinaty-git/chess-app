@@ -28,15 +28,17 @@ export default function PlayerList() {
     function calcGames(output,playerName) {
       var counterGames = 0;
       var counterTournaments = 0;
-
+      var  tournament;
       for (let i = 0; i < tournamentsArray.length; i++) {
-        var tournament = tournamentsArray[i].games;
+        tournament = tournamentsArray[i].games;
 
         var newIteration = true;
+
         for (let i_t = 0; i_t < tournament?.length; i_t++) {
+
           var player1 = tournament[i_t].player1;
           var player2 = tournament[i_t].player2;
-          if ((player1 || player2) == playerName) {
+          if ((player1 === playerName) || (player2 === playerName)) {
             counterGames += 1;
             if (newIteration) {
               counterTournaments += 1;
