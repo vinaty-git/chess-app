@@ -5,15 +5,37 @@ import TrendingFlatIcon from '@mui/icons-material/TrendingFlat';
 
 export default function PlayerItem(props) {
 
-    const {position,playerName,currentRating,prevRating,numGames,numTournaments} = props;
+    const {position,prevposition,playerName,currentRating,prevRating,numGames,numTournaments} = props;
 
     var ratingChange = currentRating - prevRating;
     var signChange = Math.sign(ratingChange);
+    var positionChange = prevposition-position;
+    var signPositionChange = Math.sign(positionChange);
 
     return (
         <li className="players__item">
 
-            <span className="players__position">{position}</span>
+            <span className="players__position">
+
+                <span className="position__current">
+                    {position}
+                </span>
+
+                <span className="position__previous">
+                    {positionChange === 0 ?
+                    '-' :
+                    signPositionChange === +1 ?
+                    '+'
+                    :
+                    ''
+                    }
+                    {positionChange === 0 ?
+                    '' :
+                    positionChange
+                    }
+                </span>
+
+            </span>
 
             <span className="players__name">{playerName}</span>
             
