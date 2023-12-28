@@ -17,7 +17,7 @@ export default function PlayerList() {
     Object.keys(playersJson).forEach(function(key) {
       var tempPlayer = playersJson[key];
       numberOfGames = calcGames('games',tempPlayer.name);
-      if (tempPlayer.ratings[tempPlayer.ratings.length - 1].rd < 1140 && numberOfGames > 0){
+      if (tempPlayer.ratings[tempPlayer.ratings.length - 1].rd < 140 && numberOfGames > 9){
         playersArray.push(playersJson[key]);
       }
     });
