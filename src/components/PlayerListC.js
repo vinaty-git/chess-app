@@ -17,7 +17,7 @@ export default function PlayerList() {
     Object.keys(playersJson).forEach(function(key) {
       var tempPlayer = playersJson[key];
       numberOfGames = calcGames('games',tempPlayer.name);
-      if (tempPlayer.ratings[tempPlayer.ratings.length - 1].rd < 140 && numberOfGames > 9){
+      if (tempPlayer.ratings[tempPlayer.ratings.length - 1].rd < 1140 && numberOfGames > 0){
         playersArray.push(playersJson[key]);
       }
     });
@@ -28,15 +28,17 @@ export default function PlayerList() {
     function calcGames(output,playerName) {
       var counterGames = 0;
       var counterTournaments = 0;
-
+      var  tournament;
       for (let i = 0; i < tournamentsArray.length; i++) {
-        var tournament = tournamentsArray[i].games;
+        tournament = tournamentsArray[i].games;
 
         var newIteration = true;
+
         for (let i_t = 0; i_t < tournament?.length; i_t++) {
+
           var player1 = tournament[i_t].player1;
           var player2 = tournament[i_t].player2;
-          if ((player1 || player2) == playerName) {
+          if ((player1 === playerName) || (player2 === playerName)) {
             counterGames += 1;
             if (newIteration) {
               counterTournaments += 1;
