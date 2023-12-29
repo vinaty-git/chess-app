@@ -6,7 +6,12 @@ import tournamentsJson from '../assets/tournaments.json';
 export default function PlayerList() {
 
     const [prevRatings, setPrevRatings] = useState([]); // After Load of the table set previuos ratings to Array
-    
+    const [allPlayersState,setAllPlayersState] = useState([]);
+
+    ////\\\\////\\\\////\\\\////\\\\////\\\\/
+    ////\\\ PREPARE ARRAY OF PLAYERS //\\\\//
+    ////\\\\////\\\\////\\\\////\\\\////\\\\/
+
     var tournamentsArray = [];
     Object.keys(tournamentsJson).forEach(function(key) {
       tournamentsArray.push(tournamentsJson[key]);
@@ -24,35 +29,124 @@ export default function PlayerList() {
 
     playersArray.sort((a, b) => a.ratings[a.ratings.length - 1].value - b.ratings[b.ratings.length - 1].value).reverse();
 
-    // Calculate number of the player games
-    function calcGames(output,playerName) {
+    // Calculate number of the player games to exclude player with < 10 games
+    function calcGames(output,playerNameCalc) {
       var counterGames = 0;
-      var counterTournaments = 0;
-      var  tournament;
+      var tournament;
+
       for (let i = 0; i < tournamentsArray.length; i++) {
         tournament = tournamentsArray[i].games;
-
-        var newIteration = true;
 
         for (let i_t = 0; i_t < tournament?.length; i_t++) {
 
           var player1 = tournament[i_t].player1;
           var player2 = tournament[i_t].player2;
-          if ((player1 === playerName) || (player2 === playerName)) {
+          if ((player1 === playerNameCalc) || (player2 === playerNameCalc)) {
+            // Overall games
             counterGames += 1;
-            if (newIteration) {
-              counterTournaments += 1;
-              newIteration = false;
-            }
+
           }
         }
       }
       if (output === 'games') {
-        return(counterGames);
-      } else if (output === 'tournaments') {
-        return(counterTournaments);
+        return (counterGames);
       }
     }
+
+    ////\\\\////\\\\////\\\\////\\\\////\\\\/
+    ////\\\\////\\ Core calc  //\\\\///\\\\//
+    ////\\\\////\\\\////\\\\////\\\\////\\\\/
+
+    useEffect(()=>{
+
+      var playerName = '';
+      var counterGames = 0;
+      var counterTotalWhite = 0;
+      var counterTotalBlack = 0;
+      var counterWhiteWins = 0;
+      var counterBlackWins = 0;
+      var counterWhiteDraws = 0;
+      var counterBlackDraws = 0;
+      var counterTournaments = 0;
+      var tournament;
+      var playerObj = {};
+      var tempArrayPlayers = [];
+
+      // Iteration for each player
+      for (let i_m = 0; i_m < playersArray.length; i_m++) {
+
+        playerName = playersArray[i_m].name;
+        counterGames = 0;
+        counterTotalWhite = 0;
+        counterTotalBlack = 0;
+        counterWhiteWins = 0;
+        counterBlackWins = 0;
+        counterWhiteDraws = 0;
+        counterBlackDraws = 0;
+        counterTournaments = 0;
+        playerObj = {};
+
+        // Iteration of each tournament for each player
+        for (let i = 0; i < tournamentsArray.length; i++) {
+          tournament = tournamentsArray[i].games;
+  
+          var newIteration = true;
+
+          // Iteration of each game
+          for (let i_t = 0; i_t < tournament?.length; i_t++) {
+  
+            var player1 = tournament[i_t].player1;
+            var player2 = tournament[i_t].player2;
+            if ((player1 === playerName) || (player2 === playerName)) {
+              // Overall games
+              counterGames += 1;
+  
+              // Player played White
+              if (player1 === playerName) {
+                counterTotalWhite += 1;
+                //Player wins
+                if (tournament[i_t].result === 1) {
+                  counterWhiteWins += 1;
+                } else if (tournament[i_t].result === 0.5) {
+                  counterWhiteDraws += 1;
+                }
+              }
+              // Player played Black
+              if (player2 === playerName) {
+                counterTotalBlack += 1;
+                //Player wins
+                if (tournament[i_t].result === 0) {
+                  counterBlackWins += 1;
+                } else if (tournament[i_t].result === 0.5) {
+                  counterBlackDraws += 1;
+                }
+              }
+  
+              if (newIteration) {
+                counterTournaments += 1;
+                newIteration = false;
+              }
+            }
+          }
+        }
+
+        playerObj = {
+            'player_name': playerName,
+            'all_games': counterGames,
+            'all_tournaments': counterTournaments,
+            'all_whites': counterTotalWhite,
+            'all_blacks': counterTotalBlack,
+            'wins_white': counterWhiteWins,
+            'draw_white': counterWhiteDraws,
+            'wins_black': counterBlackWins,
+            'draw_black': counterBlackDraws,
+        }
+        tempArrayPlayers.push(playerObj);
+      }
+      
+      setAllPlayersState(tempArrayPlayers);
+
+    },[]);
 
     // Find previous ratings
     var pR = [];
@@ -103,11 +197,16 @@ export default function PlayerList() {
           </span>
 
           <span className="players__games-h">
-            Games
+            <span>Games /</span>
+            <span>Tourn.</span>
           </span>
 
-          <span className="players__tournaments-h">
-            Tournaments
+          <span className="players__wins-h">
+            Wins
+          </span>
+
+          <span className="players__opener">
+            
           </span>
 
         </div>
@@ -118,21 +217,24 @@ export default function PlayerList() {
 
             var currentRating = Math.floor(item.ratings[item.ratings.length - 1].value);
             var prevRating = Math.floor(item.ratings[item.ratings.length - 2].value);
-            var numGames = calcGames('games',item.name);
-            var numTournaments = calcGames('tournaments',item.name);
+            var playerObject = {};
 
-            
+            for(let i = 0; i < allPlayersState.length; i++) {
+              if (allPlayersState[i].player_name === item.name) {
+                playerObject = allPlayersState[i];
+              }
+              
+            }
+
             return(
 
               <PlayerItem
                 key={index}
                 position={index+1}
                 prevposition={findPrevPosition(item.name)}
-                playerName={item.name}
                 currentRating={currentRating}
                 prevRating={prevRating}
-                numGames={numGames}
-                numTournaments={numTournaments}
+                playerObject={playerObject}
               />);
 
           })}
