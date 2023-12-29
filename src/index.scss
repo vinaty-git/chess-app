@@ -28,6 +28,9 @@ code {
   $silver-bg: rgb(216, 224, 224);
   $bronze-bg: rgb(240, 211, 170);
   $grey-bg: rgb(243, 240, 236);
+
+  $wins-green: rgb(76, 142, 76);
+  $wins-red: rgb(205, 184, 88);
 //\\// COMMON ELEMENTS //\\//
 
 .icon--green {
@@ -83,37 +86,72 @@ code {
   width: 15%;
   text-align: left;
 }
+.players__name {
+  font-size: 0.85rem;
+  font-weight: bold;
+  color: $heading-color;
+}
+
 .players__rating-h,
 .players__rating {
-  width: 10%;
+  width: 8%;
   text-align: left;
 }
 
 .players__change-h, 
 .players__change {
-  width: 15%;
+  width: 10%;
   text-align: left;
 }
 
 .players__games-h,
 .players__games {
-  width: 15%;
-  text-align: center;
-}
-
-.players__tournaments-h,
-.players__tournaments {
   width: 10%;
   text-align: center;
 }
+.players__games-h {
+  display: flex;
+  flex-direction: column;
+}
+.players__games {
+  display: flex;
+  // flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+  .games__tournaments {
+    font-size: 0.7rem;
+  }
+  .games__games {
+    font-size: 0.9rem;
+    span {
+      margin-right: 4px;
+    }
+  }
+}
 
+
+.players__wins-h,
+.players__wins {
+  width: 10%;
+  text-align: center;
+}
+.players__opener,
+.players__opener-h {
+  width: 4%;
+  text-align: center;
+}
+.players__opener {
+  button {
+    padding: 0;
+  }
+}
 
 .players__headings {
   display: flex;
   height: 40px;
   justify-content: space-around;
   align-items: center;
-  gap: 5%;
+  gap: 4%;
   padding-right: 4%;
   font-size: 0.8rem;
   font-weight: bold;
@@ -131,15 +169,17 @@ code {
   padding-left: 0;
 }
 
-.players__item {
+// .players__item,
+.players__top {
   position: relative;
   height: 60px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 5%;
+  gap: 4%;
   padding: 14px 4% 14px 0;
 
+  font-size: 0.85rem;
   background-color: #fff;
   margin-bottom: 4px;
 }
@@ -148,13 +188,123 @@ code {
   display: flex;
   align-items: center;
   gap: 10px;
+  svg {
+    width: 0.9rem;
+    height: 0.9rem;
+  }
+}
+
+.players__wins {
+  font-weight: bold;
+  font-size: 0.8rem;
+}
+
+.players__wins--green {
+  color: $wins-green;
+}
+
+.players__wins--red {
+  color: $wins-red;
+}
+
+.players__bottom {
+  background-color: #fff;
+  margin-bottom: 5px;
+}
+
+.bottom__container {
+  height: 80px;
+  padding: 20px 4% 25px 4%;
+  display: flex;
+}
+.bottom__left  {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  font-size: 1rem;
+}
+.bottom__color-rate {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.icon-rotated {
+  transform: rotate(180deg);
 }
 
 //\\// Mobile styles //\\//
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 760px) {
   .players {
     width: 100%;
     margin: 0 auto;
     padding: 0 2%;
   }
+
+  .players__headings {
+    font-size: 0.6rem;
+    gap: 2%;
+  }
+  .players__top {
+    gap: 2%;
+  }
+  
+  .players__name {
+    font-size: 0.8rem;
+  }
+  .players__name-h,
+  .players__name {
+    width: 12%;
+  }
+  .players__change {
+    flex-direction: column;
+    align-items: center;
+    gap: 2px;
+  }
+  .players__games {
+    flex-direction: column;
+    align-items: center;
+  }
+  .players__wins {
+    font-size: 0.7rem;
+  }
+  .players__games {
+    .games__tournaments {
+      font-size: 0.70rem;
+      text-align: center;
+    }
+    .games__games {
+      border-bottom: 1px solid grey;
+      font-size: 0.75rem;
+    }
+  }
+  .players__games,
+  .players__games-h {
+    width: 7%;
+  }
+  .players__change,
+  .players__change-h {
+    width: 7%;
+  }
+  .players__rating-h,
+  .players__rating {
+    width: 10%;
+    text-align: left;
+  }
+  .players__opener-h,
+  .players__opener {
+    width: 10%;
+    text-align: right;
+  }
+  .games__games span {
+    display: none;
+  }
+
+  .bottom__container {
+    padding: 15px 4%;
+  }
+  .bottom__left  {
+    font-size: 0.85rem;
+  }
+
 }
