@@ -43,6 +43,17 @@ code {
   color: $icon-neutral;
 }
 
+//\\// CAROUSEL HEADER //\\//
+.carousel-header {
+  background-color: rgba(33, 66, 66, 0.1);;
+}
+
+.carousel-root {
+  width: 60%;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
 //\\// PLAYER LIST //\\//
 .players__position {
   height: 100%;
