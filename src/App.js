@@ -26,6 +26,7 @@ function App() {
           interval={20000}
           showThumbs={false}
           showStatus={false}
+          infiniteLoop={true}
         >
           {carouselImages.map((URL, index) => (
             <div className="slide">
