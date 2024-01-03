@@ -43,17 +43,26 @@ export default function PlayerItem(props) {
                     </span>
 
                     <span className="position__previous">
-                        {positionChange === 0 ?
-                        '-' :
-                        signPositionChange === +1 ?
-                        '+'
-                        :
-                        ''
-                        }
-                        {positionChange === 0 ?
-                        '' :
-                        positionChange
-                        }
+                        <a style={
+                            positionChange === 0
+                                ? {}
+                                : signPositionChange === +1
+                                    ? { color: 'rgb(0,71,71)' }
+                                    : { color: 'rgb(71,0,0)' }
+                        }>
+                            {
+                                positionChange === 0
+                                    ? ''
+                                    : signPositionChange === +1
+                                        ? '+'
+                                        : ''
+                            }
+                            {
+                                positionChange === 0
+                                    ? ''
+                                    : positionChange
+                            }
+                        </a>
                     </span>
 
                 </span>
