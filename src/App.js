@@ -23,7 +23,7 @@ function App() {
         <Carousel
           useKeyboardArrows={true}
           autoPlay={true}
-          interval={15000}
+          interval={20000}
           showThumbs={false}
           showStatus={false}
         >

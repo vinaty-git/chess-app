@@ -181,7 +181,8 @@ export default function PlayerList() {
         <div className="players__headings">
 
           <span className="players__position-h">
-            #
+            <a className="players__position-current-h">#</a>
+            <a className="players__position-previous-h"></a>
           </span>
 
           <span className="players__name-h">
