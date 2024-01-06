@@ -13,7 +13,7 @@ code {
 }
 
 .App {
-  background-color: rgb(239, 237, 237);
+  background-color: rgba(49, 46, 43, 0.85);
   padding: 40px 0;
   overflow-x: hidden;
 }
@@ -23,11 +23,12 @@ code {
   $icon-green:green;
   $icon-red: red;
   $icon-neutral: grey;
-  $heading-color: rgb(65, 65, 65);
-  $sandy-bg: rgb(238, 228, 159);
-  $silver-bg: rgb(216, 224, 224);
-  $bronze-bg: rgb(240, 211, 170);
-  $grey-bg: rgb(243, 240, 236);
+  $heading-color: rgb(255, 255, 255);
+  $name-color: rgb(0, 0, 0);
+  $sandy-bg: rgba(238, 228, 159, 0.9);
+  $silver-bg: rgba(216, 224, 224, 0.9);
+  $bronze-bg: rgba(240, 211, 170, 0.9);
+  $grey-bg: rgba(243, 240, 236, 0.9);
 
   $wins-green: rgb(76, 142, 76);
   $wins-red: rgb(205, 184, 88);
@@ -43,21 +44,38 @@ code {
   color: $icon-neutral;
 }
 
+//\\// CAROUSEL HEADER //\\//
+.carousel-header {
+  background-color: rgba(255, 255, 255, 0.05);
+}
+
+.carousel-root {
+  width: 60%;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
 //\\// PLAYER LIST //\\//
 .players__position {
   height: 100%;
 }
 .players__position,
 .players__position-h {
-  width: 7%;
+  width: 9%;
   text-align: center;
 }
-.position__current {
+
+.position__current ,
+.players__position-current-h {
   display: inline-flex;
+  width: 65%;
+  justify-content: center;
+}
+
+.position__current {
   align-items: center;
   justify-content: center;
-  width: 100%;
-  height: 60%;
+  height: 100%;
   border-radius: 0 10px 10px 0;
   font-size: 0.9rem;
 }
@@ -77,8 +95,25 @@ code {
   font-weight: bold;
 }
 
+.position__previous ,
+.players__position-previous-h {
+  display: inline-flex;
+  width: 35%;
+}
+
 .position__previous {
+  align-items: center;
+  justify-content: center;  
   font-size: 0.8rem;
+  font-weight: bold;
+}
+
+.players__item:first-child > .players__top {
+  border-radius: .5rem .5rem 0 0;
+}
+
+.players__item:last-child > .players__top {
+  border-radius: 0 0 .5rem .5rem;
 }
 
 .players__name-h,
@@ -89,13 +124,18 @@ code {
 .players__name {
   font-size: 0.85rem;
   font-weight: bold;
-  color: $heading-color;
+  text-decoration: underline;
+  color: $name-color;
 }
 
 .players__rating-h,
 .players__rating {
   width: 8%;
-  text-align: left;
+  text-align: center;
+}
+
+.players__rating {
+  font-weight: bold;
 }
 
 .players__change-h, 
@@ -153,7 +193,7 @@ code {
   align-items: center;
   gap: 4%;
   padding-right: 4%;
-  font-size: 0.8rem;
+  font-size: 0.9rem;
   font-weight: bold;
   color: $heading-color;
 }
@@ -172,7 +212,7 @@ code {
 // .players__item,
 .players__top {
   position: relative;
-  height: 60px;
+  height: 35px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -181,7 +221,7 @@ code {
 
   font-size: 0.85rem;
   background-color: #fff;
-  margin-bottom: 4px;
+  margin-bottom: 1px;
 }
 
 .players__change {
@@ -235,6 +275,10 @@ code {
 
 //\\// Mobile styles //\\//
 @media screen and (max-width: 760px) {
+  .carousel-root {
+    width: 96%;
+  }
+
   .players {
     width: 100%;
     margin: 0 auto;
