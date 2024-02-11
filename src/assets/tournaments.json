@@ -2662,5 +2662,253 @@
                 "result": 1
             }
         ]
+    },
+    {
+        "id": "641635a4-92f2-4b23-842a-d0260e20c885",
+        "processed": true,
+        "control": "10+0",
+        "datetime": "2024-02-11T11:00:00.000Z",
+        "games": [
+            {
+                "player1": "Ваня",
+                "player2": "Локис",
+                "result": 0
+            },
+            {
+                "player1": "Олег",
+                "player2": "Сергей",
+                "result": 1
+            },
+            {
+                "player1": "Виталий",
+                "player2": "Дамир",
+                "result": 0
+            },
+            {
+                "player1": "Илья К",
+                "player2": "Глеб",
+                "result": 0.5
+            },
+            {
+                "player1": "Слава",
+                "player2": "Коля",
+                "result": 1
+            },
+            {
+                "player1": "Леонид П",
+                "player2": "Кирилл Л",
+                "result": 0
+            },
+            {
+                "player1": "Фёдор",
+                "player2": "Эдуард",
+                "result": 1
+            },
+            {
+                "player1": "Алекс",
+                "player2": "Виталий Вигдорович",
+                "result": 0
+            },
+            {
+                "player1": "Локис",
+                "player2": "Слава",
+                "result": 1
+            },
+            {
+                "player1": "Кирилл Л",
+                "player2": "Олег",
+                "result": 0
+            },
+            {
+                "player1": "Дамир",
+                "player2": "Фёдор",
+                "result": 0
+            },
+            {
+                "player1": "Виталий Вигдорович",
+                "player2": "Илья К",
+                "result": 0
+            },
+            {
+                "player1": "Глеб",
+                "player2": "Борис Вигдорович",
+                "result": 1
+            },
+            {
+                "player1": "Коля",
+                "player2": "Алекс",
+                "result": 1
+            },
+            {
+                "player1": "Сергей",
+                "player2": "Леонид П",
+                "result": 0
+            },
+            {
+                "player1": "Эдуард",
+                "player2": "Ваня",
+                "result": 0
+            },
+            {
+                "player1": "Олег",
+                "player2": "Локис",
+                "result": 0
+            },
+            {
+                "player1": "Фёдор",
+                "player2": "Глеб",
+                "result": 1
+            },
+            {
+                "player1": "Илья К",
+                "player2": "Дамир",
+                "result": 0
+            },
+            {
+                "player1": "Ваня",
+                "player2": "Коля",
+                "result": 1
+            },
+            {
+                "player1": "Леонид П",
+                "player2": "Виталий Вигдорович",
+                "result": 1
+            },
+            {
+                "player1": "Слава",
+                "player2": "Кирилл Л",
+                "result": 0.5
+            },
+            {
+                "player1": "Борис Вигдорович",
+                "player2": "Виталий",
+                "result": 1
+            },
+            {
+                "player1": "Алекс",
+                "player2": "Эдуард",
+                "result": 1
+            },
+            {
+                "player1": "Локис",
+                "player2": "Фёдор",
+                "result": 0.5
+            },
+            {
+                "player1": "Леонид П",
+                "player2": "Олег",
+                "result": 0
+            },
+            {
+                "player1": "Дамир",
+                "player2": "Ваня",
+                "result": 1
+            },
+            {
+                "player1": "Кирилл Л",
+                "player2": "Илья К",
+                "result": 0.5
+            },
+            {
+                "player1": "Глеб",
+                "player2": "Слава",
+                "result": 0
+            },
+            {
+                "player1": "Борис Вигдорович",
+                "player2": "Алекс",
+                "result": 0.5
+            },
+            {
+                "player1": "Коля",
+                "player2": "Виталий Вигдорович",
+                "result": 1
+            },
+            {
+                "player1": "Виталий",
+                "player2": "Сергей",
+                "result": 1
+            },
+            {
+                "player1": "Дамир",
+                "player2": "Локис",
+                "result": 0
+            },
+            {
+                "player1": "Фёдор",
+                "player2": "Олег",
+                "result": 1
+            },
+            {
+                "player1": "Слава",
+                "player2": "Леонид П",
+                "result": 1
+            },
+            {
+                "player1": "Илья К",
+                "player2": "Коля",
+                "result": 1
+            },
+            {
+                "player1": "Ваня",
+                "player2": "Борис Вигдорович",
+                "result": 1
+            },
+            {
+                "player1": "Кирилл Л",
+                "player2": "Виталий",
+                "result": 1
+            },
+            {
+                "player1": "Алекс",
+                "player2": "Глеб",
+                "result": 0
+            },
+            {
+                "player1": "Виталий Вигдорович",
+                "player2": "Эдуард",
+                "result": 1
+            },
+            {
+                "player1": "Локис",
+                "player2": "Илья К",
+                "result": 0
+            },
+            {
+                "player1": "Олег",
+                "player2": "Слава",
+                "result": 1
+            },
+            {
+                "player1": "Ваня",
+                "player2": "Фёдор",
+                "result": 0
+            },
+            {
+                "player1": "Кирилл Л",
+                "player2": "Дамир",
+                "result": 0
+            },
+            {
+                "player1": "Глеб",
+                "player2": "Леонид П",
+                "result": 1
+            },
+            {
+                "player1": "Виталий Вигдорович",
+                "player2": "Борис Вигдорович",
+                "result": 1
+            },
+            {
+                "player1": "Коля",
+                "player2": "Виталий",
+                "result": 1
+            },
+            {
+                "player1": "Сергей",
+                "player2": "Алекс",
+                "result": 0
+            }
+        ]
     }
 ]
