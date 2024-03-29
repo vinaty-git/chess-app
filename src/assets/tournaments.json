@@ -3610,5 +3610,153 @@
                 "result": 0
             }
         ]
+    },
+    {
+        "id": "bb56dd66-b356-4fc2-ba88-b808d0f3ae10",
+        "processed": true,
+        "control": "10+0",
+        "datetime": "2024-03-23T11:00:00.000Z",
+        "games": [
+            {
+                "player1": "Владимир С",
+                "player2": "Гоша",
+                "result": 0
+            },
+            {
+                "player1": "Коля",
+                "player2": "Глеб",
+                "result": 0.5
+            },
+            {
+                "player1": "Полина",
+                "player2": "Дамир",
+                "result": 0
+            },
+            {
+                "player1": "Эдуард Г",
+                "player2": "Олег",
+                "result": 0
+            },
+            {
+                "player1": "Гоша",
+                "player2": "Дамир",
+                "result": 1
+            },
+            {
+                "player1": "Олег",
+                "player2": "Коля",
+                "result": 1
+            },
+            {
+                "player1": "Глеб",
+                "player2": "Эдуард Г",
+                "result": 1
+            },
+            {
+                "player1": "Полина",
+                "player2": "Владимир С",
+                "result": 1
+            },
+            {
+                "player1": "Олег",
+                "player2": "Гоша",
+                "result": 1
+            },
+            {
+                "player1": "Дамир",
+                "player2": "Глеб",
+                "result": 1
+            },
+            {
+                "player1": "Коля",
+                "player2": "Полина",
+                "result": 1
+            },
+            {
+                "player1": "Эдуард Г",
+                "player2": "Владимир С",
+                "result": 0.5
+            },
+            {
+                "player1": "Дамир",
+                "player2": "Олег",
+                "result": 0.5
+            },
+            {
+                "player1": "Гоша",
+                "player2": "Коля",
+                "result": 1
+            },
+            {
+                "player1": "Владимир С",
+                "player2": "Глеб",
+                "result": 0
+            },
+            {
+                "player1": "Полина",
+                "player2": "Эдуард Г",
+                "result": 1
+            },
+            {
+                "player1": "Глеб",
+                "player2": "Олег",
+                "result": 0
+            },
+            {
+                "player1": "Гоша",
+                "player2": "Полина",
+                "result": 1
+            },
+            {
+                "player1": "Эдуард Г",
+                "player2": "Дамир",
+                "result": 0
+            },
+            {
+                "player1": "Коля",
+                "player2": "Владимир С",
+                "result": 1
+            },
+            {
+                "player1": "Олег",
+                "player2": "Полина",
+                "result": 1
+            },
+            {
+                "player1": "Глеб",
+                "player2": "Гоша",
+                "result": 0
+            },
+            {
+                "player1": "Владимир С",
+                "player2": "Дамир",
+                "result": 0
+            },
+            {
+                "player1": "Эдуард Г",
+                "player2": "Коля",
+                "result": 0
+            },
+            {
+                "player1": "Олег",
+                "player2": "Владимир С",
+                "result": 1
+            },
+            {
+                "player1": "Гоша",
+                "player2": "Эдуард Г",
+                "result": 1
+            },
+            {
+                "player1": "Дамир",
+                "player2": "Коля",
+                "result": 1
+            },
+            {
+                "player1": "Полина",
+                "player2": "Глеб",
+                "result": 1
+            }
+        ]
     }
 ]
