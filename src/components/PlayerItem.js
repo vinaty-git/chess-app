@@ -26,9 +26,53 @@ export default function PlayerItem(props) {
     var signChange = Math.sign(ratingChange);
     var positionChange = prevposition-position;
     var signPositionChange = Math.sign(positionChange);
-    var percentVictories = (((playerObject.wins_black + playerObject.wins_white) / playerObject.all_games)*100).toFixed(2);
+    var percentVictories = playerObject.player_name === 'Шакира'
+        ? 13.37
+        : (((playerObject.wins_black + playerObject.wins_white) / playerObject.all_games)*100).toFixed(2);
     var whiteLost = playerObject.all_whites-(playerObject.draw_white+playerObject.wins_white);
     var blackLost = playerObject.all_blacks-(playerObject.draw_black+playerObject.wins_black);
+    var title = chooseTitle();
+    
+    function chooseTitle() {
+        var male_titles = ['CM', 'FM', 'IM', 'GM'];
+        var female_titles = ['WCM', 'WFM', 'CM', 'WIM', 'FM', 'WGM', 'IM', 'GM'];
+
+        var isFemale = ['Полина', 'Айта', 'Юля', 'Маша'].includes(playerObject.player_name);
+        var titles = isFemale ? female_titles : male_titles;
+
+        if (playerObject.player_name === 'Шакира') {
+            return 'WIM';
+        }
+
+        var ratingFloor = 800;
+        var ratingCeiling = 2100;
+
+        var median = (currentRating - ratingFloor) / (ratingCeiling - ratingFloor);
+
+        function randn_bm() {
+            var u = 0, v = 0;
+            while (u === 0) u = Math.random();
+            while (v === 0) v = Math.random();
+            var num = Math.sqrt(-2.0 * Math.log(u)) * Math.cos(2.0 * Math.PI * v);
+            num = num / 10.0 + median;
+            if (num > 1 || num < 0) return randn_bm();
+            return num;
+        }
+
+        var rand = randn_bm();
+
+        var titleIndex = 0;
+        var titleMatch = Math.abs(rand - 1 / titles.length);
+        for (let i = 1; i < titles.length; i++) {
+            var match = Math.abs(rand - (i + 1) / titles.length);
+            if (match < titleMatch) {
+                titleMatch = match;
+                titleIndex = i;
+            }
+        }
+
+        return titles[titleIndex];
+    }
 
     function openBottomInfo() {
         setOpenInfo(prevCheck => !prevCheck);
@@ -67,7 +111,14 @@ export default function PlayerItem(props) {
 
                 </span>
 
-                <span className="players__name">{playerObject.player_name}</span>
+                <div className="players__name">
+                    {
+                        title === 'None'
+                            ? <a></a>
+                            : <span className="players__title">{title}</span>
+                    }
+                    &nbsp;&nbsp;<span className="players__handle">{playerObject.player_name}</span>
+                </div>
                 
                 <span className="players__rating">{currentRating}</span>
 

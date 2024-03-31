@@ -29,6 +29,25 @@ export default function PlayerList() {
 
     playersArray.sort((a, b) => a.ratings[a.ratings.length - 1].value - b.ratings[b.ratings.length - 1].value).reverse();
 
+    playersArray.push({
+      id: 999999999,
+      name: 'Шакира',
+      ratings: [
+        {
+          time: '2023-10-02T00:00:00+00:00',
+          value: 450,
+          rd: 350,
+          vol: 0.06
+        },
+        {
+          time: '2023-10-03T00:00:00+00:00',
+          value: 450,
+          rd: 350,
+          vol: 0.06
+        }
+      ]
+    });
+
     // Calculate number of the player games to exclude player with < 10 games
     function calcGames(output,playerNameCalc) {
       var counterGames = 0;
