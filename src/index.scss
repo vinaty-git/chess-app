@@ -302,6 +302,15 @@ code {
   .players__top {
     gap: 2%;
   }
+
+  .players__name {
+    font-size: 0.8rem;
+  }
+  .players__name-h,
+  .players__name {
+    width: 10%;
+    margin-left: -45px;
+  }
   
   .players__change {
     flex-direction: column;
@@ -315,6 +324,11 @@ code {
   .players__wins {
     font-size: 0.7rem;
   }
+  .players__wins-h,
+  .players__wins {
+    width: 7%;
+  }
+
   .players__games {
     .games__tournaments {
       font-size: 0.70rem;
@@ -327,20 +341,20 @@ code {
   }
   .players__games,
   .players__games-h {
-    width: 7%;
+    width: 3%;
   }
   .players__change,
   .players__change-h {
-    width: 7%;
+    width: 3%;
   }
   .players__rating-h,
   .players__rating {
-    width: 10%;
+    width: 3%;
     text-align: left;
   }
   .players__opener-h,
   .players__opener {
-    width: 10%;
+    width: 5%;
     text-align: right;
   }
   .games__games span {
