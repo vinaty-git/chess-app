@@ -4277,5 +4277,163 @@
                 "result": 0
             }
         ]
+    },
+    {
+        "id": "77bfb962-6bbc-4865-a123-6916dc75b24d",
+        "processed": true,
+        "control": "10+0",
+        "datetime": "2024-04-27T11:00:00.000Z",
+        "games": [
+            {
+                "player1": "Андрей ༼ つ ◕_◕ ༽つ",
+                "player2": "Слава",
+                "result": 0
+            },
+            {
+                "player1": "Алекс",
+                "player2": "Глеб",
+                "result": 0.5
+            },
+            {
+                "player1": "Айта",
+                "player2": "Эдуард Н",
+                "result": 0
+            },
+            {
+                "player1": "Кирилл Н",
+                "player2": "Костя",
+                "result": 1
+            },
+            {
+                "player1": "Юрий",
+                "player2": "Полина",
+                "result": 0
+            },
+            {
+                "player1": "Эдуард Н",
+                "player2": "Кирилл Н",
+                "result": 0.5
+            },
+            {
+                "player1": "Полина",
+                "player2": "Алекс",
+                "result": 1
+            },
+            {
+                "player1": "Глеб",
+                "player2": "Айта",
+                "result": 1
+            },
+            {
+                "player1": "Костя",
+                "player2": "Слава",
+                "result": 0
+            },
+            {
+                "player1": "Андрей ༼ つ ◕_◕ ༽つ",
+                "player2": "Юрий",
+                "result": 1
+            },
+            {
+                "player1": "Слава",
+                "player2": "Полина",
+                "result": 1
+            },
+            {
+                "player1": "Кирилл Н",
+                "player2": "Глеб",
+                "result": 1
+            },
+            {
+                "player1": "Эдуард Н",
+                "player2": "Андрей ༼ つ ◕_◕ ༽つ",
+                "result": 0
+            },
+            {
+                "player1": "Алекс",
+                "player2": "Костя",
+                "result": 1
+            },
+            {
+                "player1": "Айта",
+                "player2": "Юрий",
+                "result": 0
+            },
+            {
+                "player1": "Полина",
+                "player2": "Кирилл Н",
+                "result": 1
+            },
+            {
+                "player1": "Андрей ༼ つ ◕_◕ ༽つ",
+                "player2": "Слава",
+                "result": 1
+            },
+            {
+                "player1": "Глеб",
+                "player2": "Эдуард Н",
+                "result": 1
+            },
+            {
+                "player1": "Юрий",
+                "player2": "Алекс",
+                "result": 0
+            },
+            {
+                "player1": "Костя",
+                "player2": "Айта",
+                "result": 0
+            },
+            {
+                "player1": "Полина",
+                "player2": "Андрей ༼ つ ◕_◕ ༽つ",
+                "result": 1
+            },
+            {
+                "player1": "Слава",
+                "player2": "Глеб",
+                "result": 0
+            },
+            {
+                "player1": "Алекс",
+                "player2": "Эдуард Н",
+                "result": 1
+            },
+            {
+                "player1": "Кирилл Н",
+                "player2": "Айта",
+                "result": 0
+            },
+            {
+                "player1": "Юрий",
+                "player2": "Костя",
+                "result": 1
+            },
+            {
+                "player1": "Глеб",
+                "player2": "Полина",
+                "result": 0
+            },
+            {
+                "player1": "Андрей ༼ つ ◕_◕ ༽つ",
+                "player2": "Алекс",
+                "result": 0
+            },
+            {
+                "player1": "Кирилл Н",
+                "player2": "Юрий",
+                "result": 1
+            },
+            {
+                "player1": "Айта",
+                "player2": "Слава",
+                "result": 0
+            },
+            {
+                "player1": "Эдуард Н",
+                "player2": "Костя",
+                "result": 1
+            }
+        ]
     }
 ]
