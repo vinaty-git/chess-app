@@ -4563,5 +4563,143 @@
                 "result": 1
             }
         ]
+    },
+    {
+        "id": "2baf7449-2aac-4d1e-bc59-926a35f48ea2",
+        "processed": true,
+        "control": "10+5",
+        "datetime": "2024-06-08T11:00:00.000Z",
+        "games": [
+            {
+                "player1": "Кирилл Н",
+                "player2": "Константин Д",
+                "result": 1
+            },
+            {
+                "player1": "Михаил П",
+                "player2": "Полина",
+                "result": 1
+            },
+            {
+                "player1": "Слава",
+                "player2": "Леонид И",
+                "result": 1
+            },
+            {
+                "player1": "Арсений",
+                "player2": "Владимир С",
+                "result": 0
+            },
+            {
+                "player1": "Локис",
+                "player2": "Гоша",
+                "result": 0
+            },
+            {
+                "player1": "Владимир С",
+                "player2": "Кирилл Н",
+                "result": 0
+            },
+            {
+                "player1": "Гоша",
+                "player2": "Слава",
+                "result": 1
+            },
+            {
+                "player1": "Константин Д",
+                "player2": "Михаил П",
+                "result": 1
+            },
+            {
+                "player1": "Полина",
+                "player2": "Арсений",
+                "result": 1
+            },
+            {
+                "player1": "Леонид И",
+                "player2": "Локис",
+                "result": 0
+            },
+            {
+                "player1": "Кирилл Н",
+                "player2": "Гоша",
+                "result": 1
+            },
+            {
+                "player1": "Локис",
+                "player2": "Полина",
+                "result": 1
+            },
+            {
+                "player1": "Слава",
+                "player2": "Константин Д",
+                "result": 1
+            },
+            {
+                "player1": "Михаил П",
+                "player2": "Владимир С",
+                "result": 0
+            },
+            {
+                "player1": "Слава",
+                "player2": "Кирилл Н",
+                "result": 0
+            },
+            {
+                "player1": "Владимир С",
+                "player2": "Локис",
+                "result": 0
+            },
+            {
+                "player1": "Гоша",
+                "player2": "Михаил П",
+                "result": 1
+            },
+            {
+                "player1": "Константин Д",
+                "player2": "Арсений",
+                "result": 1
+            },
+            {
+                "player1": "Кирилл Н",
+                "player2": "Локис",
+                "result": 0
+            },
+            {
+                "player1": "Полина",
+                "player2": "Гоша",
+                "result": 0
+            },
+            {
+                "player1": "Константин Д",
+                "player2": "Владимир С",
+                "result": 1
+            },
+            {
+                "player1": "Арсений",
+                "player2": "Слава",
+                "result": 0
+            },
+            {
+                "player1": "Локис",
+                "player2": "Слава",
+                "result": 0
+            },
+            {
+                "player1": "Гоша",
+                "player2": "Константин Д",
+                "result": 1
+            },
+            {
+                "player1": "Арсений",
+                "player2": "Кирилл Н",
+                "result": 0
+            },
+            {
+                "player1": "Владимир С",
+                "player2": "Полина",
+                "result": 0
+            }
+        ]
     }
 ]
