@@ -4799,5 +4799,118 @@
                 "result": 1
             }
         ]
+    },
+    {
+        "id": "68e83e66-0a7f-41e9-b5eb-dd531e3208cf",
+        "processed": true,
+        "control": "10+0",
+        "datetime": "2024-07-07T12:00:00.000Z",
+        "games": [
+            {
+                "player1": "Илья В",
+                "player2": "Виталий",
+                "result": 1
+            },
+            {
+                "player1": "Костя",
+                "player2": "Кирилл Л",
+                "result": 0
+            },
+            {
+                "player1": "Кирилл Н",
+                "player2": "Айта",
+                "result": 0
+            },
+            {
+                "player1": "Кирилл Л",
+                "player2": "Кирилл Н",
+                "result": 0
+            },
+            {
+                "player1": "Виталий",
+                "player2": "Костя",
+                "result": 1
+            },
+            {
+                "player1": "Слава",
+                "player2": "Илья В",
+                "result": 0
+            },
+            {
+                "player1": "Костя",
+                "player2": "Слава",
+                "result": 0
+            },
+            {
+                "player1": "Кирилл Н",
+                "player2": "Виталий",
+                "result": 1
+            },
+            {
+                "player1": "Айта",
+                "player2": "Кирилл Л",
+                "result": 0
+            },
+            {
+                "player1": "Виталий",
+                "player2": "Айта",
+                "result": 1
+            },
+            {
+                "player1": "Слава",
+                "player2": "Кирилл Н",
+                "result": 1
+            },
+            {
+                "player1": "Илья В",
+                "player2": "Костя",
+                "result": 1
+            },
+            {
+                "player1": "Кирилл Н",
+                "player2": "Илья В",
+                "result": 0
+            },
+            {
+                "player1": "Айта",
+                "player2": "Слава",
+                "result": 0
+            },
+            {
+                "player1": "Кирилл Л",
+                "player2": "Виталий",
+                "result": 1
+            },
+            {
+                "player1": "Слава",
+                "player2": "Кирилл Л",
+                "result": 0.5
+            },
+            {
+                "player1": "Илья В",
+                "player2": "Айта",
+                "result": 1
+            },
+            {
+                "player1": "Костя",
+                "player2": "Кирилл Н",
+                "result": 0
+            },
+            {
+                "player1": "Айта",
+                "player2": "Костя",
+                "result": 1
+            },
+            {
+                "player1": "Кирилл Л",
+                "player2": "Илья В",
+                "result": 0
+            },
+            {
+                "player1": "Виталий",
+                "player2": "Слава",
+                "result": 0
+            }
+        ]
     }
 ]
